@@ -52,16 +52,16 @@ This is a Kotlin Multiplatform project targeting Android, iOS.
 * `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform,
   you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
 
-WealthPlusApp/
-├── androidApp/ # Android app launcher
-├── shared/ # Shared code for Android + iOS
-│ └── src/commonMain/kotlin/
-│ ├── data/ # Session + Dummy API
-│ ├── domain/ # Models
-│ ├── presentation/ # ViewModels + State
-│ └── ui/ # Shared Compose screens
 
-
+<pre>  WealthPlusApp/ 
+  ├── androidApp/ # Android app launcher 
+  ├── shared/ # Shared code for Android + iOS 
+  │ └── src/commonMain/kotlin/
+  │ ├── data/ # Session + Dummy API 
+  │ ├── domain/ # Models 
+  │ ├── presentation/ # ViewModels + State 
+  │ └── ui/ # Shared Compose screens 
+</pre>
 ---
 
 ##  Running the Project
@@ -78,8 +78,6 @@ WealthPlusApp/
 2. Add SwiftUI launcher to wrap `ComposeViewController()`
 3. Run on iOS simulator or device
 
->  Shared UI is ready — only iOS wrapper setup is needed.
-
 ---
 
 ##  Login Info
@@ -91,10 +89,11 @@ WealthPlusApp/
 
 ## 📸 Screenshots (Android)
 
-![img.png](img.png)
-![img_1.png](img_1.png)
-![img_2.png](img_2.png)
-
+<p align="center">
+  <img src="img.png" alt="Login" width="200"/>
+  <img src="img_1.png" alt="OTP" width="200"/>
+  <img src="img_2.png" alt="Dashboard" width="200"/>
+</p>
 
 ---
 
